@@ -22,6 +22,10 @@
     color: #031C4E;
 }
 
+.subtitle_color {
+    color: #5C6A88;
+}
+
 .txtw_color {
     color: #FFFFFF;
 }
@@ -40,7 +44,11 @@
 
 .txt_color {
     color: #6F7B97;
-} 
+}
+
+.txt_size {
+    font-size: 21px;
+}
 
 .no_margin_top {
     margin-top: 0;
@@ -171,17 +179,13 @@
     }
     
     .txt_size_sm {
-        font-size: 22px;
+        font-size: 21px;
     }
 }
 
 @media screen and (min-width: 992px) {
     .title_size_md {
         font-size: 62px;
-    }
-    
-    .txt_size_md {
-        font-size: 22px;
     }
 }
 /*inizio sezione 2 del main*/
@@ -195,4 +199,26 @@
         width: 110px;
     }    
 }
+
+/*inizio sezione 3 del main*/
+.wrapper {
+    margin-bottom: 40px; 
+}
+
+.my_list_item_border {
+    border: none;
+}
+
+.my_list_border {
+    border-left: 1px solid #CCCCCC; 
+}
+
+.txt_list_color {
+    color: #7D879F;
+}
+
+.xs_img {
+    margin: 5px 0 15px 0;
+}
+
 
