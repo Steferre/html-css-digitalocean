@@ -1,5 +1,25 @@
+.bg_white {
+    background-color: #FFFFFF;
+}
+
 .title_color{
     color: #031C4E;
+}
+
+.txtw_color {
+    color: #FFFFFF;
+}
+
+.txtg-color {
+    color: #BBCDFF;
+}
+
+.txtdb_color {
+    color: #031C4E;
+}
+
+.txtb_color {
+    color: #006AFF;
 }
 
 .my_clearfix::after {
@@ -81,6 +101,10 @@
 
 /*inizio sezione main*/
 .my_bg_img {
-    background-image: url("img/bg-banner-home.jpg");
-    height: 200px;
+    background-color: blue;
+}
+
+.card {
+    padding: 10px;
+    height: 250px;
 }
