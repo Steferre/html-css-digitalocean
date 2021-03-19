@@ -2,8 +2,16 @@
     background-color: #FFFFFF;
 }
 
+.bg_ltgrey{
+    background-color: #F3F5F9;
+}
+
 .sct_my_padding {
     padding: 45px 0 40px 0;
+}
+
+.sct_my_padding_small {
+    padding: 25px 0 15px 0;
 }
 
 .my_small_margin {
@@ -29,6 +37,10 @@
 .txtb_color {
     color: #006AFF;
 }
+
+.txt_color {
+    color: #6F7B97;
+} 
 
 .no_margin_top {
     margin-top: 0;
@@ -171,4 +183,16 @@
     .txt_size_md {
         font-size: 22px;
     }
-} 
+}
+/*inizio sezione 2 del main*/
+.prt_logo_box {
+    width: 150px;
+    height: 100px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .prt_logo_box {
+        width: 110px;
+    }    
+}
+
