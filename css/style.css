@@ -1,0 +1,86 @@
+.title_color{
+    color: #031C4E;
+}
+
+.my_clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.my_navbar {
+    height: 60px;
+}
+
+.my_logo_box {
+    width: 200px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.my_logo_size {
+    height: 25px;
+}
+
+.my_f_left {
+    float: left;
+}
+
+.my_f_right {
+    float: right;
+}
+
+.my_hamburger_menu {
+    line-height: 60px;
+}
+
+.my_hamb_menu_custom {
+    font-size: 30px;
+}
+
+.hor_menu {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .hor_menu {
+        display: inline-block;
+    }
+
+    .hor_menu > li {
+        list-style: none;
+        display: inline-block;
+        line-height: 50px;
+    }
+    
+    .hor_menu > li > .title_color {
+       padding-right: 15px; 
+    }
+
+    .hor_menu > li > .title_color:hover {
+        color: #006AFF;
+        text-decoration: none;
+    }
+    
+    .my_btn {
+        background-color: #FFFFFF;
+        color: #006AFF;
+        border: 1px solid #006AFF;
+        border-radius: 5px;
+    }
+
+    .my_btn:hover {
+        color: #031C4E;
+    }
+
+    .my_hamburger_menu {
+        display: none; 
+    }
+}
+/*fine sezione header*/
+
+/*inizio sezione main*/
+.my_bg_img {
+    background-image: url("img/bg-banner-home.jpg");
+    height: 200px;
+}
