@@ -2,6 +2,14 @@
     background-color: #FFFFFF;
 }
 
+.sct_my_padding {
+    padding: 45px 0 40px 0;
+}
+
+.my_small_margin {
+    margin: 10px 0;
+}
+
 .title_color{
     color: #031C4E;
 }
@@ -22,11 +30,23 @@
     color: #006AFF;
 }
 
+.no_margin_top {
+    margin-top: 0;
+}
+
 .my_clearfix::after {
     content: "";
     display: table;
     clear: both;
-} 
+}
+
+.my_position_rel {
+    position: relative;
+}
+
+.my_position_ab {
+    position: absolute;
+}
 
 .my_navbar {
     height: 60px;
@@ -99,12 +119,59 @@
 }
 /*fine sezione header*/
 
-/*inizio sezione main*/
+/*inizio sezione 1 main*/
 .my_bg_img {
-    background-color: blue;
+    background-image: url("../img/bg-banner-home.jpg");
+    background-size: cover;
+    background-position: center bottom;
 }
 
 .card {
-    padding: 10px;
-    height: 250px;
+    padding: 20px 15px;
+    border-radius: 5px;
 }
+
+.logo_google_box {
+    display: inline-block;
+    left: 12px;
+}
+
+.logo_google_size {
+    height: 20px;
+}
+
+.br_color {
+    border-color: #EEEEEE;
+    box-shadow: none; 
+}
+
+.my_form_btn_blue {
+    background-color: #579AFF;
+    color: #FFFFFF;
+}
+
+.my_form_btn {
+    background-color: #FFFFFF;
+    color: #626262;
+    box-shadow: 1px 1px #E3E3E3; 
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .title_size_sm {
+        font-size: 39px;
+    }
+    
+    .txt_size_sm {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .title_size_md {
+        font-size: 62px;
+    }
+    
+    .txt_size_md {
+        font-size: 22px;
+    }
+} 
