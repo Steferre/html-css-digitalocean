@@ -131,12 +131,9 @@
     border-radius: 5px;
 }
 
-.logo_google_box {
+.logo_google_size {
     display: inline-block;
     left: 12px;
-}
-
-.logo_google_size {
     height: 20px;
 }
 
