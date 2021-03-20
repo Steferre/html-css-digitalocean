@@ -292,4 +292,40 @@
         max-width: 300px; 
     }
 }
-/*inizio sezione 5 del main*/
+/*inizio sezione 6 del main*/
+.bg_blue_gradient {
+    background-color: #003BB9; 
+}
+
+.region_line {
+    width: 95%;
+    padding: 5px 0;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.region_line:last-of-type {
+    border-bottom: none;
+}
+
+.region_code {
+   width: 20%; 
+}
+
+.region_town {
+    width: 60%;
+    color: #BBC8EA;
+}
+
+.region_speed {
+    width: 20%;
+}
+
+.speed_color {
+    color: #00D7D2; 
+}
+
+@media screen and (max-width:991px) {
+    .spx_margin {
+        margin-bottom: 20px;
+    }
+}
