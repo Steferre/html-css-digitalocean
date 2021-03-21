@@ -416,3 +416,64 @@
 .tl_size {
     font-size: 16px;
 }
+/*logo squalo*/
+.shark_cloud {
+    display: none;
+}
+
+.shark_img {
+    display: inline-block;
+}
+.bg_shark {
+    background-color: #006AFF;
+}
+
+.shark_img,
+.shark_size {
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+    vertical-align: bottom;
+}
+
+.shark_img {
+    margin-left: 10px;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 14px solid #FFFFFF;
+	border-bottom: 10px solid transparent;
+    right: -7px;
+    bottom: 3px;
+}
+
+.circle_red {
+    color: #FFFFFF;
+    font-size: 13px;
+    background-color: #FF0001;
+    width: 25px;
+    height: 25px;
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+    top: -20%;
+    right: -15%; 
+}
+
+.my_position_fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.shark_size:hover + .shark_cloud {
+    display: block;
+}
+
+.shark_cloud {
+    width: 300px;
+    padding: 10px 20px 10px 5px;
+    border-radius: 5px;
+}
