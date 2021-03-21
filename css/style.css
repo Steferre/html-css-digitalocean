@@ -332,7 +332,7 @@
 
 /*inizio sezione 7 del main*/
 .rocker_box {
-    width: 80%; /*questa configuarazione va messa della media max width 767px*/
+    width: 80%;
     background-color: #FFFFFF;
 }
 
@@ -367,10 +367,6 @@
     .wrapper_box {
       max-width: 400px;  
     }
-    .rocker_box {
-        width: 80%;
-
-    }
     .rocker_img_box {
         width: 80%;
     }
@@ -380,10 +376,12 @@
     .wrapper_box {
         max-width: 540px; 
     }
-    .rocker_box {
-        width: 80%;
-    }
     .rocker_img_box {
         width: 60%;
     }
+}
+/*inizio sezione 8 del main*/
+.btn_account {
+    border: none;
+    background-color: #FFFFFF;
 }
