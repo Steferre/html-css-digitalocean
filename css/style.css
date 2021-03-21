@@ -194,7 +194,7 @@
 }
 /*inizio sezione 2 del main*/
 .prt_logo_box {
-    width: 150px;
+    width: 130px;
     height: 100px;
 }
 
@@ -327,5 +327,63 @@
 @media screen and (max-width:991px) {
     .spx_margin {
         margin-bottom: 20px;
+    }
+}
+
+/*inizio sezione 7 del main*/
+.rocker_box {
+    width: 80%; /*questa configuarazione va messa della media max width 767px*/
+    background-color: #FFFFFF;
+}
+
+.rocker_img_box {
+    width: 100%;
+}
+
+.rocker_size {
+    width: 100%;
+    padding: 25px 0 15px 0;
+}
+
+.link_box {
+    margin: 20px 0;
+}
+
+.card_padding {
+    padding: 10px;
+}
+
+.special_margin {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .rocker_box {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .wrapper_box {
+      max-width: 400px;  
+    }
+    .rocker_box {
+        width: 80%;
+
+    }
+    .rocker_img_box {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .wrapper_box {
+        max-width: 540px; 
+    }
+    .rocker_box {
+        width: 80%;
+    }
+    .rocker_img_box {
+        width: 60%;
     }
 }
