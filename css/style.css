@@ -308,16 +308,17 @@
 }
 
 .region_code {
-   width: 20%; 
+   width: 15%; 
 }
 
 .region_town {
-    width: 60%;
+    width: 50%;
     color: #BBC8EA;
+    margin-left: 5%;
 }
 
 .region_speed {
-    width: 20%;
+    width: 30%;
 }
 
 .speed_color {
@@ -419,6 +420,9 @@
 /*logo squalo*/
 .shark_cloud {
     display: none;
+    width: 300px;
+    padding: 10px 20px 10px 5px;
+    border-radius: 5px;
 }
 
 .shark_img {
@@ -434,6 +438,10 @@
     height: 55px;
     border-radius: 5px;
     vertical-align: bottom;
+}
+
+.shark_box:hover .shark_cloud {
+    display: inline-block;
 }
 
 .shark_img {
@@ -466,14 +474,4 @@
     position: fixed;
     bottom: 30px;
     right: 20px;
-}
-
-.shark_size:hover + .shark_cloud {
-    display: block;
-}
-
-.shark_cloud {
-    width: 300px;
-    padding: 10px 20px 10px 5px;
-    border-radius: 5px;
 }
