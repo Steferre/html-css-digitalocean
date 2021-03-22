@@ -294,7 +294,7 @@
 }
 /*inizio sezione 6 del main*/
 .bg_blue_gradient {
-    background-color: #003BB9; 
+    background-image: linear-gradient(to bottom left, #0047C5, #001E99); 
 }
 
 .region_line {
